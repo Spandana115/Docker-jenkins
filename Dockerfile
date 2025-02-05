@@ -1,4 +1,4 @@
 FROM nginx
-COPY . / /usr/share/nginx/html/
+COPY shape1-html/ /usr/share/nginx/html/
 EXPOSE 80
 
